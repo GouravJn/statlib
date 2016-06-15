@@ -1,5 +1,4 @@
-# StatLib
-[![Release](https://jitpack.io/v/mayojava/Repo.svg)](https://jitpack.io/#mayojava/Repo)
+# StatLib [![Release](https://jitpack.io/v/mayojava/statlib.svg)](https://jitpack.io/#mayojava/Repo)
 # License
 ```
 Copyright 2016 Mayowa Adegeye
