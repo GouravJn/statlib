@@ -21,7 +21,7 @@ dependencies {
 
 ```
 # Usage
-To computer the Arithmetic mean of a set of numbers for example,
+To compute the Arithmetic mean of a set of numbers for example,
 
 ```
 //create the list of numbers
