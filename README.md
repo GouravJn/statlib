@@ -1,4 +1,43 @@
 # StatLib [![Release](https://jitpack.io/v/mayojava/statlib.svg)](https://jitpack.io/#mayojava/Repo)
+Statistics library for Android
+
+# Download
+Add it in your root `build.gradle` at the end of repositories:
+
+```
+allprojects {
+	repositories {
+		...
+		maven { url "https://jitpack.io" }
+	}
+}
+```
+Add the dependency to your add module `build.gradle` file:
+
+```
+dependencies {
+	compile 'com.github.mayojava:statlib:v1.0'
+}
+
+```
+# Usage
+To computer the Arithmetic mean of a set of numbers for example,
+
+```
+//create the list of numbers
+ArrayList<Integer> numbers = new ArrayList<>();
+numbers.add(10);
+numbers.add(12);
+numbers.add(5);
+numbers.add(9);
+numbers.add(16);
+numbers.add(4);
+
+//call the static arithmeticMean method from the CentralTendency class
+double mean = CentralTendency.arithmeticMean(numbers).doubleValue();
+
+```
+
 # License
 ```
 Copyright 2016 Mayowa Adegeye
